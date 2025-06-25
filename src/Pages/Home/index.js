@@ -5,18 +5,19 @@ import Container from "../../components/Container";
 
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import {useState} from "react"
 
 
 function Home() {
 
-let nomeDE=
+
 
   return (
     <>
     <Header/>
    <Banner img="Home"/>
     <Container>
-     <input type="text" placeholder="nome"/>
+     
       {
         categories.map((category,index)=>
         <Category category={category}>

@@ -3,6 +3,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Home from "./Pages/Home";
 import Watch from "./Pages/Watch";
 import Page404 from "./Pages/Page404";
+import Search from "./Pages/Search";
 
 function AppRoutes() {
     
@@ -11,6 +12,7 @@ function AppRoutes() {
             <Routes>
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/watch/:id" element={<Watch/>}></Route>
+                <Route path="/search" element={<Search/>}></Route>
                   <Route path="*" element={<Page404/>}></Route>
                 
                 
