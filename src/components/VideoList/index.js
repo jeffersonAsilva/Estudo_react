@@ -1,5 +1,5 @@
 import styles from "./VideoList.module.css";
-import videos from "../../json/videos.json";
+
 import Card from "../Card"
 
  

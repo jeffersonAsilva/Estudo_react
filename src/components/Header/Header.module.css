@@ -6,7 +6,7 @@
     height: 68px;
     width: 100%;
     display: flex;
-   
+    z-index: 9999;
     
     align-items: center;
     justify-content: space-around;
